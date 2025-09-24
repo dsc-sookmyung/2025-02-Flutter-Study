@@ -1,0 +1,57 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_export_environment.sh
+
+# Dependency
+pubspec.lock
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+*.keystore
+*.jks
+*.apk
+*.aar
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad/
+*.moved-aside
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# VSCode / IntelliJ / Xcode IDE
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Linux / Windows build
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# Coverage
+coverage/
+
+# Firebase / Secrets (개인 설정 시)
+google-services.json
+GoogleService-Info.plist
+.env
