@@ -50,7 +50,7 @@ class _DicePageState extends State<DicePage> {
                   print('diceNumber = $rightDiceNumber');
                 });
               },
-              child: Image.asset('images/dice2.png'),
+              child: Image.asset('images/dice$rightDiceNumber.png'),
             ),
           ),
         ],
