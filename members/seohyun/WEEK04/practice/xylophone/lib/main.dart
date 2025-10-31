@@ -11,14 +11,20 @@ class Xylophone extends StatelessWidget {
     player.play(AssetSource('note$noteNumber.wav'));
   }
 
-  Expanded buildKey({Color color=Colors.white, int noteNumber=1}) {
+  Expanded buildKey({Color color = Colors.white, int noteNumber = 1}) {
     return Expanded(
       child: TextButton(
-          style: ButtonStyle(backgroundColor: WidgetStateProperty.all(color)),
-          onPressed: (){
-            playSound(noteNumber);
-          },
-          child: Text('$noteNumber'),
+        style: TextButton.styleFrom(
+          backgroundColor: color,
+          shape: const RoundedRectangleBorder(borderRadius: BorderRadius.zero),
+          padding: EdgeInsets.zero,
+          minimumSize: Size.zero,
+          tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+        ),
+        onPressed: () {
+          playSound(noteNumber);
+        },
+        child: Container(),
       ),
     );
   }
