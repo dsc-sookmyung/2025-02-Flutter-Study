@@ -1,0 +1,34 @@
+# .gitignore
+
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Pods/
+ios/Runner.xcworkspace/
+
+# macOS
+macos/Flutter/Flutter.podspec
+macos/Pods/
+macos/Runner.xcworkspace/
+
+# Windows
+windows/flutter/
+
+# User-specific
+*.log
