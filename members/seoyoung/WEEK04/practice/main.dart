@@ -13,7 +13,6 @@ class Xylophone extends StatelessWidget {
     player.play(AssetSource('note$soundNumber.wav'));
   }
 
-  /// 하나의 건반(Key) 위젯을 만들어주는 함수
   Expanded buildKey({required Color color, required int soundNumber}) {
     return Expanded(
       child: TextButton(
