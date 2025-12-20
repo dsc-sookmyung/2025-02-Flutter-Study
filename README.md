@@ -1,3 +1,5 @@
+HEAD
+
 # 2025-02-Flutter-Study
 [25-26 GDG on Campus Sookmyung 6기] 1분기 스터디(Flutter)를 위한 저장소
 
@@ -32,3 +34,4 @@
 │           └── practice/
 ├── README.md                    # 저장소 소개 및 규칙
 ```
+origin/WEEK01_seoyoung
